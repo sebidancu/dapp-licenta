@@ -101,7 +101,7 @@ const StakeForm = () => {
 
   const sendStakeTransaction = async (token_id: any, nft_nonce: any) => {
     const stakeTransaction = {
-      value: '300000000000000000',
+      value: '0',
       data:
         'ESDTNFTTransfer@' +
         strtoHex(token_id) +
